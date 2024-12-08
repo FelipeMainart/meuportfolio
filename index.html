@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Felipe Mainart</title>
+    <link rel="stylesheet" href="css/style2.css"> 
+</head>
+
+<body id="body">
+    <!-- HEADER -->
+    <header>
+        <div id="header">
+            
+            <div id="logo">
+                <img src="imagens/logomainart.png" alt="logomainart">
+            </div>
+            
+            <!-- Menu -->
+            <div id="menu">
+                <a href="#body" style="padding: 30px;">HOME</a>
+                <a href="#project" style="padding: 30px">PORTFÓLIO</a>
+                <a href="#formacao" style="padding: 30px">FORMAÇÃO</a>
+                <a href="#contato" style="padding: 30px">CONTATO</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- SEÇÃO SOBRE MIM -->
+    <section id="sobre">
+        <!-- Título da seção -->
+        <h1 class="titulo">OLÁ, EU SOU <br> FELIPE MAINART</h1>
+        <!-- Texto descritivo sobre mim -->
+        <p class="texto">
+            Sou apaixonado por tecnologia, design e tudo que envolve<br>
+            o universo digital. Meu trabalho é transformar ideias em<br>
+            experiências online únicas, criando sites que não só têm<br>
+            uma aparência incrível, mas também funcionam de forma<br>
+            eficiente e atendem às necessidades de cada projeto.<br><br>
+            
+            Quando não estou imerso em projetos criativos, gosto de<br>
+            me movimentar. Pratico corrida, academia e futebol para<br>
+            equilibrar a rotina, além de dedicar meu tempo livre a jogos<br>
+            eletrônicos e explorar as últimas novidades do mundo da<br>
+            tecnologia.<br><br>
+            Também tenho uma longa trajetória no design gráfico, o<br>
+            que me ajuda a criar soluções visuais que conectam marcas<br>
+            e pessoas de forma autêntica. <br><br>
+            Se você procura alguém para dar vida ao seu projeto<br>
+            online, está no lugar certo. Vamos conversar?
+        </p>
+    
+        <!-- Imagem de destaque -->
+        <div id="foto"> 
+            <img src="imagens/felipe.png" alt="Foto Felipe">
+        </div>
+    </section>
+
+    <!-- SEÇÃO PORTFÓLIO -->
+    <section id="project">
+        <!-- Título da seção -->
+        <h1 class="titulo-projects">MEUS PROJETOS</h1>   
+    
+        <!-- Galeria de projetos com links -->
+        <div id="img_project">
+            <div class="project-item">
+                <img src="imagens/project1.png" alt="Projeto 1">
+                <a href="http://www.google.com.br">
+                    <button><strong>ABRIR SITE</strong></button>
+                </a>
+            </div>
+            <div class="project-item">
+                <img src="imagens/project2.png" alt="Projeto 2">
+                <a href="https://www.behance.net/gallery/139530083/SOCIAL-MEDIA-Bebidas">
+                    <button><strong>ABRIR SITE</strong></button>
+                </a>
+            </div>
+            <div class="project-item">
+                <img src="imagens/project3.png" alt="Projeto 3">
+                <a href="https://www.behance.net/gallery/139530083/SOCIAL-MEDIA-Bebidas">
+                    <button><strong>ABRIR SITE</strong></button>
+                </a>
+            </div>
+            
+        </div>
+    </section>
+    
+    <!-- SEÇÃO FORMAÇÃO -->
+    <section id="formacao">
+        <!-- Título da seção -->
+        <div>
+            <h1 class="titulo-formacao">FORMAÇÃO</h1>
+        </div>
+
+        <!-- Informações sobre formação acadêmica -->
+        <div class="escola">
+            <p>
+                <strong style="color: #FF6A00;">ENSINO MÉDIO</strong><br>
+                ESCOLA LUIZ BALBINO - 2017
+            </p>
+        </div>
+        
+        <div class="superior">
+            <p>
+                <strong style="color: #FF6A00;">ENSINO SUPERIOR</strong><br>
+                UNINTER<br>
+                ANÁLISE E DESENVOLVIMENTO DE SISTEMAS - CURSANDO
+            </p>
+        </div>
+    </section>
+
+    <!-- SEÇÃO CONTATO -->
+    <section id="contato">
+        <!-- Título da seção -->
+        <div>
+            <h1 class="titulo-contato">CONTATO</h1>
+
+            <!-- Formulário de contato -->
+            <form action="enviar" method="post" id="form">
+                
+                <label class="nome">NOME</label>
+                <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
+
+                
+                <label class="telefone">TELEFONE</label>
+                <input type="tel" id="telefone" name="telefone" placeholder="(XX) XXXXX-XXXX"> 
+                       
+
+               
+                <label class="email">E-MAIL</label>
+                <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+
+                
+                <label class="mensagem">MENSAGEM</label>
+                <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva sua mensagem aqui..." required></textarea>
+
+                
+                <button class="botao_contato" type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+    
+    <!-- RODAPÉ -->
+    <footer>
+        <div id="footer">
+            Todos os direitos reservados - Felipe Mainart
+        </div>
+    </footer>
+</body>
+</html>
